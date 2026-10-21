@@ -9,7 +9,7 @@ export function cn(...classes: (string | boolean | undefined | null)[]): string 
 export function formatCurrency(amount: number, currency: 'INR' | 'USD' | 'EUR' | 'GBP' = 'INR'): string {
   if (typeof amount !== 'number' || isNaN(amount)) return '₹0';
   
-  if (currency === 'INR') {
+  if (currency === 'INR') { 
     return new Intl.NumberFormat('en-IN', {
       style: 'currency',
       currency: 'INR',

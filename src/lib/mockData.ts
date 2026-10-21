@@ -50,7 +50,7 @@ export const INITIAL_BUCKET_ITEMS: BucketItem[] = [
     createdAt: '2026-02-01T12:00:00Z',
   },
   {
-    id: 'b-3',
+    id: 'b-3', 
     title: 'Build a Custom Solid Oak Standing Desk',
     category: 'Personal',
     description: 'Source local hardwood, hand-finish with Osmo Polyx oil, and mount on dual-motor legs.',
